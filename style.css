@@ -1,2 +1,52 @@
-#header {
+html {
+  background-color: whitesmoke;
+}
+#topheader {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+#header-img {
+  text-align: left;
+  position: fixed;
+  top: 0px;
+  overflow: hidden;
+  background: whitesmoke;
+  width: 30%;
+  height: 8vh;
+  padding: 0 0 3vh 0;
+}
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 3vh 40vw;
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0px;
+  left: 30vw;
+  width: 70%;
+  height: 8vh;
+}
+
+#nav-bar li {
+  float: left;
+  text-align: right;
+}
+
+#nav-bar li a {
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightcyan;
+}
+
+#topheader,
+form {
+  text-align: center;
 }
