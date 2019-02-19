@@ -1,20 +1,20 @@
 html {
   background-color: whitesmoke;
 }
+
 #topheader {
   text-align: center;
   position: relative;
   top: 100px;
+  font-size: 25px;
 }
 #header-img {
   text-align: left;
   position: fixed;
-  top: 0px;
+  top: 10px;
   overflow: hidden;
   background: whitesmoke;
   width: 30%;
-  height: 8vh;
-  padding: 0 0 3vh 0;
 }
 #nav-bar ul {
   list-style-type: none;
@@ -23,10 +23,9 @@ html {
   overflow: hidden;
   background-color: whitesmoke;
   position: fixed;
-  top: 0px;
+  top: 10px;
   left: 30vw;
   width: 70%;
-  height: 8vh;
 }
 
 #nav-bar li {
@@ -49,4 +48,24 @@ li a:hover {
 #topheader,
 form {
   text-align: center;
+  position: relative;
+}
+
+form {
+  top: 110px;
+  padding: 5px;
+}
+form button {
+  padding: 2px 25px 2px 25px;
+  margin: 15px;
+  font-size: 20px;
+  background: yellow;
+  font-weight: bolder;
+}
+input {
+  width: 30vw;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
 }
