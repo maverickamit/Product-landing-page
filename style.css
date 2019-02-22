@@ -53,10 +53,9 @@ form {
 
 form {
   top: 110px;
-  padding: 5px;
+  width: 100%;
 }
 form button {
-  padding: 2px 25px 2px 25px;
   margin: 15px;
   font-size: 20px;
   background: yellow;
@@ -68,4 +67,8 @@ input {
   margin: 10px;
   padding: 5px;
   font-size: 20px;
+}
+#content {
+  position: relative;
+  top: 10px;
 }
