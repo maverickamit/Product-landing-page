@@ -14,7 +14,7 @@ html {
 #topheader {
   position: fixed;
   left: 32vw;
-  top: 8vh;
+  top: 5vh;
   background: whitesmoke;
 }
 nav {
@@ -26,7 +26,7 @@ nav {
 #header {
   position: fixed;
   width: 100vw;
-  padding: 10vh 100vw;
+  padding: 7vh 100vw;
   background: whitesmoke;
   z-index: 10;
 }
@@ -54,4 +54,28 @@ a {
   padding: 30vh 10vw;
   z-index: 5;
   text-align: center;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+}
+
+#pricing {
+  display: flex;
+}
+#email {
+  width: 400px;
+  height: 25px;
+  padding: 5px;
+}
+#button {
+  margin: 15px;
+  padding: 5px 10px;
+  background: yellow;
+  font-weight: bold;
+}
+
+#button:hover {
+  background: yellowgreen;
 }
