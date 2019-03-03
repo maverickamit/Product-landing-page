@@ -61,9 +61,6 @@ a {
   flex-direction: column;
 }
 
-#pricing {
-  display: flex;
-}
 #email {
   width: 400px;
   height: 25px;
@@ -93,4 +90,48 @@ a {
 
 #how-it-works {
   margin: 7vh;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#top {
+  color: black;
+  background-color: lightgray;
+  font-weight: 700;
+  margin: 0px;
+  padding: 20px 10px;
+}
+
+#pricing1,
+#pricing2,
+#pricing3 {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  margin: 50px;
+  font-family: "Lato", sans-serif;
+  font-size: 15pt;
+}
+
+#pricing1 button,
+#pricing2 button,
+#pricing3 button {
+  background: rgb(241, 241, 188);
+  padding: 10px 20px;
+  position: relative;
+  top: 15px;
+}
+
+#pricing1 button:hover,
+#pricing2 button:hover,
+#pricing3 button:hover {
+  background: yellow;
+  padding: 10px 20px;
+}
+#price-content {
+  text-transform: capitalize;
 }
