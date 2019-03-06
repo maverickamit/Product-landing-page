@@ -66,6 +66,12 @@ a {
   height: 25px;
   padding: 5px;
 }
+#submit {
+  margin: 15px;
+  padding: 5px 10px;
+  background: yellow;
+  font-weight: bold;
+}
 #button {
   margin: 15px;
   padding: 5px 10px;
@@ -134,4 +140,10 @@ a {
 }
 #price-content {
   text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
