@@ -141,7 +141,27 @@ a {
 #price-content {
   text-transform: capitalize;
 }
+footer{
+  margin-bottom: -200px;
+}
+ #l1 {
+  position: relative;
+  margin-bottom: -200px;
 
+  padding: 50px;
+  float:right;
+  width:50%
+}
+ #l2 {
+  position: relative;
+  margin-bottom: -200px;
+
+  padding: 50px;
+  float: left;;
+  width:50%
+  
+}
+}
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
