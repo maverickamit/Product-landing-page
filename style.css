@@ -26,7 +26,7 @@ nav {
 #header {
   position: fixed;
   width: 100vw;
-  padding: 7vh 100vw;
+  padding: 12vh 100vw;
   background: whitesmoke;
   z-index: 10;
 }
